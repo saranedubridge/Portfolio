@@ -3,7 +3,7 @@
     "title": "Flight Ticket Booking App",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Javascript","React", "Express", "Node.js","MongoDB","MySQL","Html","CSS"],
+    "skills": ["Javascript","React", "Node.js","MongoDB","Html","CSS"],
     "demo": "https://eloquent-kheer-a42b32.netlify.app/home",
     "source": "https://github.com/saranedubridge?tab=repositories"
   }

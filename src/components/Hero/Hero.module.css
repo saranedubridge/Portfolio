@@ -4,6 +4,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  
   justify-content: space-between;
   margin-top: 49px;
   z-index: 1;
@@ -53,7 +54,10 @@
 .heroImg {
   width: 50%;
   z-index: 1;
-
+  height:auto;
+  border-radius: 50%;
+  border :5px solid;
+ 
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;

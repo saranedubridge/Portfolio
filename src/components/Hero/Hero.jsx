@@ -10,7 +10,7 @@ export const Hero = () => {
         <h1 className={styles.title}>Hi, I'm SaranRaj</h1>
         <p className={styles.description}>
         I'm a passionate MERN stack developer with a solid foundation in JavaScript, React, HTML, CSS, MongoDB, MySQL, and Node.js
-        'm excited to embark on my professional journey and apply my knowledge to real-world projects. 
+        I'm excited to embark on my professional journey and apply my knowledge to real-world projects. 
         I'm eager to contribute my skills and learn from experienced professionals in the field. 
         Let's connect and explore how I can be a valuable asset to your team
         </p>
@@ -19,7 +19,7 @@ export const Hero = () => {
         </a>
       </div>
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/my image.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />
