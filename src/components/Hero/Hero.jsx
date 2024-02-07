@@ -14,12 +14,13 @@ export const Hero = () => {
         I'm eager to contribute my skills and learn from experienced professionals in the field. 
         Let's connect and explore how I can be a valuable asset to your team
         </p>
-        <a href="mailto:saranraj.1803164@srec.ac.in" className={styles.contactBtn}>
-          Contact Me
+        <a href="/Public/SARANRAJ.pdf" download="SaranrajResume.pdf" className={styles.contactBtn}>
+        
+          Resume
         </a>
-      </div>
+      </div >
       <img
-        src={getImageUrl("hero/my image.png")}
+        src={getImageUrl("hero/image.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />
