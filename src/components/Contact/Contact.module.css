@@ -1,68 +1,4 @@
-/* @import "../../vars.css";
-
-.container {
-  color: var(--color-text);
-  margin-top: 120px;
-  background-color: var(--color-secondary);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
-}
-
-.text h2 {
-  font-size: 80px;
-  font-weight: 700;
-  letter-spacing: 4px;
-}
-
-.text p {
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  list-style: none;
-  gap: 26px;
-}
-
-.link {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-.link a {
-  color: var(--color-text);
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-}
-
-@media screen and (max-width: 830px) {
-  .container {
-    flex-direction: column;
-    gap: 23px;
-  }
-
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .links {
-    align-items: center;
-  }
-} */
-
+/* Contact.module.css */
 
 @import "../../vars.css";
 
@@ -71,9 +7,9 @@
   margin-top: 120px;
   background-color: var(--color-secondary);
   display: flex;
-  flex-direction: column; /* Change to column for mobile */
-  align-items: center; /* Center content horizontally */
-  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   padding: 58px 10%;
   gap: 10px;
 }
@@ -82,14 +18,14 @@
   font-size: 80px;
   font-weight: 700;
   letter-spacing: 4px;
-  text-align: center; /* Center text for mobile */
+  text-align: center;
 }
 
 .text p {
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 35px;
+  font-weight: 3500;
   letter-spacing: 2px;
-  text-align: center; /* Center text for mobile */
+  text-align: center;
 }
 
 .links {
@@ -97,23 +33,23 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
-  gap: 26px;
-  margin-top: 20px; /* Add space between text and links */
+  gap: 25px;
+  margin-top: 20px;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 15px; /* Adjust the gap between icon and text */
+  gap: 1px;
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 24px; /* Adjust font size for mobile */
+  font-size: 20px;
   font-weight: 400;
-  letter-spacing: 1.5px;
-  text-align: center; /* Center text for mobile */
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 @media screen and (min-width: 831px) {
@@ -121,14 +57,15 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 1px;
   }
 
   .text, .links {
-    flex: 1; /* Distribute space evenly */
+    flex: 1;
   }
 
   .text {
-    text-align: initial; /* Reset text-align for larger screens */
+    text-align: initial;
   }
 
   .links {
