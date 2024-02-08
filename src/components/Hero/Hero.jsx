@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm SaranRaj</h1>
+        <h1 className={styles.title}>SARANRAJ</h1>
         <p className={styles.description}>
         I'm a passionate MERN stack developer with a solid foundation in JavaScript, React, HTML, CSS, MongoDB, MySQL, and Node.js
         I'm excited to embark on my professional journey and apply my knowledge to real-world projects. 
